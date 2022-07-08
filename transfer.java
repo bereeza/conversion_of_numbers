@@ -7,7 +7,6 @@ String system;
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jScrollPane4 = new javax.swing.JScrollPane();
@@ -135,9 +134,9 @@ String system;
         );
 
         pack();
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {
         /*String backspace = null;
         if(jTextPane1.getText().length() > 0){
             StringBuilder strB = new StringBuilder(jTextPane1.getText());
@@ -147,28 +146,28 @@ String system;
         }*/
         
         jTextPane1.setText("");
-    }//GEN-LAST:event_jButton2ActionPerformed
+    }
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {
         String answer = jTextPane1.getText();
         int i = Integer.parseInt(answer);
         String result = Integer.toBinaryString(i);
         jTextPane4.setText(result);  
-    }//GEN-LAST:event_jButton3ActionPerformed
+    }
 
-    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
+    private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {
         String answer = jTextPane1.getText();
         int i = Integer.parseInt(answer);
         String result = Integer.toOctalString(i);
         jTextPane4.setText(result); 
-    }//GEN-LAST:event_jButton4ActionPerformed
+    }
 
-    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
+    private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {
         String answer = jTextPane1.getText();
         int i = Integer.parseInt(answer);
         String result = Integer.toHexString(i);
         jTextPane4.setText(result); 
-    }//GEN-LAST:event_jButton5ActionPerformed
+    }
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(new Runnable() {
@@ -178,7 +177,6 @@ String system;
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -192,5 +190,5 @@ String system;
     private javax.swing.JTextPane jTextPane1;
     private javax.swing.JTextPane jTextPane3;
     private javax.swing.JTextPane jTextPane4;
-    // End of variables declaration//GEN-END:variables
+   
 }
